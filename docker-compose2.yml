@@ -1,0 +1,6 @@
+version: '3'
+services:
+  web:
+    image: reservation:reservation-1.0-SNAPSHOT
+    ports:
+      - "8687:8080"
